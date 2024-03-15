@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(3,0 ,31);
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+.App{
+    min-height: 100vh;
+    display: flex;
+}
+.sidebar{
+    flex: 3;
+    border-right: 1px solid rgb(100, 100, 100);
+}
+.main{
+    flex: 9;
+ 
+}
+.logo{
+    margin-right: 1rem;
+}
+.brand{
+    font-size: 2rem;
+}
+.upperside{
+    padding: 2.5rem;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    height: 70%;
+}
+.uppersideTop{
+display: flex;
+align-items: center;
+margin-bottom: 2.5rem;
+}
+.midbtn button{
+    width: 23rem;
+    background-color: rgb(223, 232, 232);
+    border-radius: 1.2rem;
+    margin: 0 auto;
+    padding: 0.3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midbtn button img{
+    margin-right: 0.5rem;
+}
+.querry{
+    display: flex;
+    align-items: center;
+    width: 23rem;
+    background: transparent;
+    padding: 0.5rem;
+    margin: 5px auto;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    color: white;
+}
+.lowerside{
+    padding: 3rem;
+}
+.list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+.listImg{
+    margin-right: 0.8rem;
+    background-color: black;
+    border-radius: 2.5rem;
+}
+.main{
+    min-height: calc(100vh-14rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:6rem 10rem ;
+}
+
+.chats{
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+    width: 100%;
+    max-width: 70rem;
+    height: calc(100vh-17rem);
+}
+.chat{
+    margin: 1rem;
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.chatfooter{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.inp{
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    
+}
+.inp input{
+    height: 2.5rem;
+    width: 66rem;
+    background: transparent;
+    color: antiquewhite;
+    border: 0.5px solid whitesmoke;
+    border-radius: 0.5rem;
+    padding: 1.3rem;
+}
+.imgchat{
+    object-fit: cover;
+    margin-right: 1.5rem;
+    border-radius: 0.3rem;
+}
+.bot{
+    background-color: rgba(28, 30,58, 1);
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+.bot1{
+    background-color: rgba(28, 30,58, 1);
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+.inp .send{
+    height: 2.7rem;
+    width: 25px;
+    background: transparent;
+    border: 0.5px solid whitesmoke;
+    border-radius: 0.1rem;
+    cursor: pointer;
+}
+ .para p{ 
+    font-size: 1.3rem;
+    padding-top: 0.6rem;
+    
+}
